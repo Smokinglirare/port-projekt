@@ -6,7 +6,7 @@ const Home = () => {
    
         return (
             <div>
-                Portfolio Home
+                Home
             </div>
         );
    

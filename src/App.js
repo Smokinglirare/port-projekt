@@ -1,6 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 
+import PortfolioPage from "./Pages/PortfolioPage"
+import Home from "./Pages/Home"
+
 function App() {
   return (
     <div className="App">
