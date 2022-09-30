@@ -8,7 +8,7 @@ const Navbar = () => {
 
     const hamburger = (
         <a href="#" className="hamburger-container" onClick={() => setNavMenu(!navMenu)}>
-            <div className="hamburger">
+            <div className={navMenu ? "close-hamburger" : "hamburger"}>
                 <span className="ham-span"></span>
                 <span className="ham-span"></span>
                 <span className="ham-span"></span>
