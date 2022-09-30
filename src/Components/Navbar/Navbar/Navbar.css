@@ -1,0 +1,13 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    min-width: 412px;
+    width: 100vw;
+    z-index: 10001;
+    background-color: rgba(0, 0, 0, 0.703);
+}

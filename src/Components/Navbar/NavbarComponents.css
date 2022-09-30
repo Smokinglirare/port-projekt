@@ -1,0 +1,9 @@
+.logo {
+    color: var(--light);
+    font-size: 40px;
+    transition: 0.4s;
+}
+
+.logo:hover{
+    color: var(--primary);
+}
