@@ -4,6 +4,7 @@ import './App.css';
 import PortfolioPage from './Pages/PortfolioPage/PortfolioPage';
 import Home from './Pages/Home/Home';
 import Navbar from './Components/Navbar/Navbar/Navbar';
+import FooterNav from './Components/FooterNav/FooterNav';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
     <Route path="/portfolio" exact element={<PortfolioPage />} />
 
       </Routes>
-      
+      <FooterNav />
       </Router> 
       
     </div>
