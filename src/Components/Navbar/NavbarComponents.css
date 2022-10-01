@@ -1,4 +1,10 @@
+@font-face {
+    font-family:Traveler ;
+    src: local('Traveler'), url(../../Fonts/Traveler.ttf)
+}
+
 .logo {
+    font-family: Traveler;
     color: var(--light);
     font-size: 40px;
     transition: 0.4s;

@@ -10,7 +10,7 @@ export const socialIcons = [
     <FaGithub />
 ]
 
-export const Logo = <Link to="/" className="logo">Mshowkat</Link>
+export const Logo = <Link to="/" className="logo">Thornes</Link>
 
 export const navItems = [
     {
