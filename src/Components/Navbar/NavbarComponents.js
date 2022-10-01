@@ -26,6 +26,10 @@ export const navItems = [
         id: "projects"
     },
     {
+        name: "FAQ's",
+        id: "faq"
+    },
+    {
         name: "Appointment",
         id: "appointment"
     }

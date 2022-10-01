@@ -1,3 +1,22 @@
+:root{
+  --primary: #d61c4e;
+  --dark: #060607;
+  --light: rgb(255, 255, 255);
+
+  --pointer: url("./images/cursor.svg"), auto;
+  --pointer-OL: url("./images/external-pointer.svg"), auto;
+}
+
+::-moz-selection {
+  color: var(--dark);
+  background-color: var(--primary);
+}
+
+::selection {
+  color: var(--dark);
+  background-color: var(--primary);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +24,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  cursor: url("./images/pointer.svg"), auto;
+
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+a, Link {
+  cursor: var(--pointer);
 }
 
 code {
