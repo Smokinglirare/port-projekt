@@ -13,13 +13,13 @@ const Navbar = () => {
     window.addEventListener("scroll", closeMenu);
 
     const hamburger = (
-        <a href=""  className="hamburger-container" onClick={() => setNavMenu(!navMenu)}>
+        <button className="hamburger-container" onClick={() => setNavMenu(!navMenu)}>
             <div className={navMenu ? "close-hamburger" : "hamburger"}>
                 <span className="ham-span"></span>
                 <span className="ham-span"></span>
                 <span className="ham-span"></span>
             </div>
-        </a>
+        </button>
     );
 
     const dropDown = (
@@ -37,9 +37,9 @@ const Navbar = () => {
         <div className="navbar">
             <div className="nav-icon-container">
                 {socialIcons.map((icon) => (
-                    <a href="" className="nav-icon" >
+                    <button href="" className="nav-icon" >
                         {icon}
-                    </a>
+                    </button>
                 ))}
             </div>
             <div className="logo-container">{Logo}</div>

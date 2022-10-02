@@ -26,6 +26,8 @@
     color: var(--light);
     transition: 0.4s;
     cursor: var(--pointer);
+    border: none;
+background: none;
 }
 
 .nav-icon:hover {
@@ -37,6 +39,8 @@
     display: grid;
     place-content: center;
     padding: 10px 0;
+    border: none;
+background: none;
 }
 
 .hamburger, 
