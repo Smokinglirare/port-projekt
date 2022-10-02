@@ -1,3 +1,15 @@
+@font-face {
+    font-family:Devant ;
+    src: local('Devant'), url(../../Fonts/Stickler-Pro.ttf)
+}
+.portfolio-container {
+    font-family:Devant;
+}
+
+.portfolio-container h2 {
+   font-size: 30px;
+}
+
 .portfolio{
     margin: 100px 0;
 }

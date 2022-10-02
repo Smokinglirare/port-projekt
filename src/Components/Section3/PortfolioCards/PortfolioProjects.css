@@ -1,3 +1,9 @@
+@font-face {
+    font-family:Traveler ;
+    src: local('Traveler'), url(../../../Fonts/Traveler.ttf)
+}
+
+
 .projects-container {
     text-align: center;
     display: flex;
@@ -19,6 +25,7 @@
 }
 
 .product-card-title{
+    font-family:Traveler ;
     opacity: 0;
     width: 70%;
     position: absolute;

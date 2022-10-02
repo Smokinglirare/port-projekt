@@ -1,8 +1,15 @@
+@font-face {
+    font-family:Devant ;
+    src: local('Devant'), url(../../Fonts/Stickler-Pro.ttf)
+}
+
 .brands-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    font-family:Devant ;
+    font-size: 20px;
 }
 
 .brand-heading,

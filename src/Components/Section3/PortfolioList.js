@@ -1,7 +1,7 @@
 import project1 from "../../images/Portfolio/splash.jpg"
 import project2 from "../../images/Portfolio/thornesDesign.jpg"
-import project3 from "../../images/Portfolio/splash.jpg"
-import project4 from "../../images/Portfolio/splash.jpg"
+import project3 from "../../images/Portfolio/creare.jpg"
+import project4 from "../../images/Portfolio/annandag.jpg"
 import project5 from "../../images/Portfolio/splash.jpg"
 import project6 from "../../images/Portfolio/splash.jpg"
 import project7 from "../../images/Portfolio/splash.jpg"
@@ -17,7 +17,7 @@ import project16 from "../../images/Portfolio/splash.jpg"
 
 export const PortfolioList = [
     {
-        name: "My actual portfolio",
+        name: "My portfolio",
         img: project1,
         link: "https://stportfolio.netlify.app/"
     },
@@ -27,14 +27,14 @@ export const PortfolioList = [
         link: "https://thornes-design.netlify.app/"
     },
     {
-        name: "splash",
+        name: "Creare art",
         img: project3,
         link: "http://www.google.com/"
     },
     {
-        name: "splash",
+        name: "Annandagstrav",
         img: project4,
-        link: "http://www.google.com/"
+        link: "https://annandagstrav.netlify.app/"
     },
     {
         name: "splash",

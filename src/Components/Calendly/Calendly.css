@@ -1,0 +1,17 @@
+.calender-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    min-width: 380px;
+    width: 680px;
+    text-align: center;
+    border: 1px solid var(--primary);
+}
+
+.calender-headings p {
+    font-size: 15px;
+    margin: 30px 5px;
+    max-width: 350px;
+}
