@@ -14,7 +14,7 @@ const FooterNav = () => {
                 </div>
                 <div className="footer-socials">
                     {socialIcons.map((icon) => (
-                        <a className="footer-social-icon" href="#">
+                        <a className="footer-social-icon" href="http://www.google.com">
                             {icon}
                         </a>
                     ))}
