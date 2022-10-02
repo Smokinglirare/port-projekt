@@ -1,30 +1,30 @@
-import project1 from "../../images/Portfolio/splash.png"
-import project2 from "../../images/Portfolio/splash.png"
-import project3 from "../../images/Portfolio/splash.png"
-import project4 from "../../images/Portfolio/splash.png"
-import project5 from "../../images/Portfolio/splash.png"
-import project6 from "../../images/Portfolio/splash.png"
-import project7 from "../../images/Portfolio/splash.png"
-import project8 from "../../images/Portfolio/splash.png"
-import project9 from "../../images/Portfolio/splash.png"
-import project10 from "../../images/Portfolio/splash.png"
-import project11 from "../../images/Portfolio/splash.png"
-import project12 from "../../images/Portfolio/splash.png"
-import project13 from "../../images/Portfolio/splash.png"
-import project14 from "../../images/Portfolio/splash.png"
-import project15 from "../../images/Portfolio/splash.png"
-import project16 from "../../images/Portfolio/splash.png"
+import project1 from "../../images/Portfolio/splash.jpg"
+import project2 from "../../images/Portfolio/thornesDesign.jpg"
+import project3 from "../../images/Portfolio/splash.jpg"
+import project4 from "../../images/Portfolio/splash.jpg"
+import project5 from "../../images/Portfolio/splash.jpg"
+import project6 from "../../images/Portfolio/splash.jpg"
+import project7 from "../../images/Portfolio/splash.jpg"
+import project8 from "../../images/Portfolio/splash.jpg"
+import project9 from "../../images/Portfolio/splash.jpg"
+import project10 from "../../images/Portfolio/splash.jpg"
+import project11 from "../../images/Portfolio/splash.jpg"
+import project12 from "../../images/Portfolio/splash.jpg"
+import project13 from "../../images/Portfolio/splash.jpg"
+import project14 from "../../images/Portfolio/splash.jpg"
+import project15 from "../../images/Portfolio/splash.jpg"
+import project16 from "../../images/Portfolio/splash.jpg"
 
 export const PortfolioList = [
     {
-        name: "splash",
+        name: "My actual portfolio",
         img: project1,
-        link: "http://www.google.com/"
+        link: "https://stportfolio.netlify.app/"
     },
     {
-        name: "splash",
+        name: "Thornes Design",
         img: project2,
-        link: "http://www.google.com/"
+        link: "https://thornes-design.netlify.app/"
     },
     {
         name: "splash",
