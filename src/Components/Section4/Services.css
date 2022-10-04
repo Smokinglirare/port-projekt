@@ -37,18 +37,6 @@
  
 }
 
-.service-card:hover
-.service-card-icon {
-    color: var(--light);
-    transform: scale(4);
-    padding: 20px;
-    opacity: 0.05s;
-    transition: 0.4s;
-}
-
-.service-card:hover h3 {
-  display:none;  
-}
 
 @media (max-width: 1000px) {
     .service-container {
@@ -76,13 +64,4 @@
         .service-card h3 {
             margin: auto 2px;
         }
-        .service-card:hover h3 {
-            display:block;  
-          }
-        .service-card:hover .service-card-icon {
-    color: var(--light);
-    transform: scale(2);
-
-    
-}
 }
