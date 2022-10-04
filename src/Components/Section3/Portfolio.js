@@ -7,7 +7,7 @@ const Portfolio = () => {
     return (
         <div className='portfolio'>
             <div className="portfolio-container">
-                <h2>Some of my Works</h2>
+                <h2>Sample size of my earlier projects</h2>
                 <div className="projects-section">
                     <PortfolioProjects items={4} />
                 </div>

@@ -7,15 +7,15 @@ const About = () => {
     return (
         <div className="about-me-container">
             <h2>
-                Let's Book a call,
+                Contact me,
                 <br />
-                so that we can discuss about your next project!
+                so that we can have a discussion about your next project!
             </h2>
             <div className="about-me-content">
                 <div className="about-me-avatar">
                     <img src={avatar} alt="" />
                     <p>
-                    <strong>@Thornes</strong> My name is Geralt of Rivia, I slay monsters, help out kingdoms in need and also build web projects.
+                     My name is Geralt of Rivia, I slay monsters, help out kingdoms in need and also build web projects.
                 </p>
                 </div>
                 <div className="about-me-calender"> 

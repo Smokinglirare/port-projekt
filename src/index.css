@@ -1,6 +1,6 @@
 :root{
   --primary: #d61c4e;
-  --dark: #060607;
+  --dark: #030106;
   --light: rgb(255, 255, 255);
 
   --pointer: url("./images/cursor.svg"), auto;

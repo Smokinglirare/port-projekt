@@ -1,16 +1,27 @@
 import React from 'react';
 import "./Hero.css"
-import underline from "../../images/Vector.svg"
+//import underline from "../../images/Vector.svg"
+import { motion } from "framer-motion"
 
 const Hero = () => {
     return (
         <div className="hero-container">
+
+            
+
+
+
+
            <div className="hero-content">
                 <div className="hero-heading-container">
-                  <h1 className="hero-heading">
-                    Your Next Project <span>Done Right</span>
-                    <img src={underline} alt="" />
-                    </h1>    
+                  <motion.h1 
+                  initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 4}}
+                  
+                  className="hero-heading">
+                    Ready for your<span>next project?</span>   
+                
+                    </motion.h1>   
+                  
                 </div>
                 <div className="hero-content-highlights">
                     <div className="hero-cards">
@@ -27,7 +38,7 @@ const Hero = () => {
                     </div>
                     <div className="hero-cards">
                         <h2>100+</h2>
-                        <h5>coolness</h5>
+                        <h5>whatever</h5>
                     </div>
                 </div>
            </div>
